@@ -1,0 +1,100 @@
+#my-profile {
+    padding-top: 13vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#avatar {
+    background-image: url(../images/instargram.png);
+    height: 16vw;
+    width: 16vw;
+    background-size: cover;
+    text-indent: -1000px;
+    overflow: hidden;
+    margin-right: 3.5vw;
+}
+
+.name {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0.5em;
+}
+
+.name h2{
+    font-size: 1.5em;
+    margin-right: 2vw;
+}
+
+.name p{
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+#introduce {
+    width: 50vw;
+    margin-bottom: 3em;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+#interest {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+#interest p{
+    font-weight: 400;
+    color: #2FBBA0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    background-color:#E8F9F5;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+#interest p:nth-child(2){
+    background-color: #FFF6F4;
+    color: #FF6E53;
+}
+
+.information {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informations li {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.informations h3 {
+    font-size: 1em;
+    color: #666666;
+    margin-bottom: 1em;
+    margin-right: 2em;
+}
+
+.informations address {
+    font-family: 'SpoqaHanSans';
+    color: #666666;
+}
+
+#blog h3 {
+    padding-right: 1em;
+}
+
+#phone-number h3 {
+    padding-right: 1em;
+}
