@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    height: 4vw;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+}
+
+header h1 {
+    font-size: 1.3vw;
+    margin-left: 4vw;
+}
+
+header ul {
+    display: flex;
+    gap: 2vw;
+    margin-right: 3vw;
+}
+
+header a{
+    color: black;
+    padding-left: 1.3vw;
+    padding-top: 0.6vw;
+    padding-right: 1.3vw;
+    padding-bottom: 0.5vw;    
+    border-radius: 1.5vw;
+}
+
+#menu-bar  .contact a{
+    color: white;
+    background-color: black;
+}
+
+header a:hover {
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#menu-bar .contact a:hover{
+    background-color: white;
+    color: black;
+}

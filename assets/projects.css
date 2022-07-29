@@ -1,0 +1,91 @@
+
+#project {
+    background-color: #F8F8F8;
+}
+
+#project>div {
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 1280px;
+    max-width: 1920px;
+
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    width: 70%;
+    height: 23vw;
+    margin-top: 15vw;
+}
+
+#project h2 {
+    display: block;
+    margin-top: 7vw;
+    margin-bottom: 2vw;
+    margin-left: 3vw;
+    font-size: 2vw;
+}
+
+.project-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.project-content {
+    background-color: beige;
+    border-radius: 1.3vw;
+    margin-right: 1.5vw;
+}
+
+.project-content:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 1vw;
+}
+
+.project-content img {
+    display: block;
+    width: 20vw;
+    height: 10vw;
+    border-radius: 1vw 1vw 0 0;
+}
+
+.project-content .check {
+    position: relative;
+    left: 0.5rem;
+    width: 0.7rem;
+    height: 0.8rem;
+}
+
+.project-content h3{
+    font-size: 1vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.project-content p{
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    text-align: center;
+   
+}
+
+.project-content button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.6vw 0 2vw 6vw;
+    border-radius: 1.5vw;
+    background-color: white;
+    font-size: 0.8rem;
+    width: 10rem;
+    height: 3.2rem;
+}
+
+.project-content button:hover {
+    color:white;
+    border: 1px solid;
+    background-color: black;
+}

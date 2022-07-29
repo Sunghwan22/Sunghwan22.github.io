@@ -3,11 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <title>세계정복자 조성환의 페이지</title>
+        <link rel="stylesheet" href="assets/global.css">
+        <link rel="stylesheet" href="assets/header.css">
+        <link rel="stylesheet" href="assets/my-profile.css">
+        <link rel="stylesheet" href="assets/projects.css">
+        <link rel="stylesheet" href="assets/experience.css">
+        <link rel="stylesheet" href="assets/retrospect.css">
+        <link rel="stylesheet" href="assets/sub-introduce.css">
     </head>
     <body>
         <header>
+            <h1>Sunghwan22</h1>
             <div id = "menu-bar">
-                <h1>Sunghwan22</h1>
                 <nav>
                     <ul>
                         <li class = "project">
@@ -29,98 +36,110 @@
         <main>
             <section id = "my-profile">
                 <div id = "avatar">프로필 이미지</div>
-                <div id = "introduce">
-                    <h2>Sunghwan22</h2>
-                    <p>software Developer</p>
-                    <p>2008년으로 돌아가면 비트코인 살 수 있는 개발자가 되고싶습니다</p>
-                </div>
-                <div id = "interest">
-                    <p>관심 분야 태그</p>
-                    <p>관심 분야 태그</p>
-                    <p>내가 할 수 있는 개발 언어? 자바...</p>
-                </div>
-                <div class = "information">
-                    <ul>
-                        <li id = "phone-number">
-                            <h3>TEL.</h3>
-                            <address>(+82)01031447938</address>
-                        </li>
-                        <li id = "email">
-                            <h3>Email.</h3>
-                            <address>tidls3144@naver.com</address>
-                        </li>
-                    </ul>    
-                </div>
-                <div class = "information">   
-                    <ul> 
-                        <li id = "blog">
-                            <h3>Blog.</h3>
-                            <a href="https://justdoit7938.tistory.com/">
-                            <address>https://justdoit7938.tistory.com/</address>
-                            </a>
-                        </li>
-                        <li id = "github">
-                            <h3>Github.</h3>
-                            <a href="https://github.com/Sunghwan22">
-                            <address>https://github.com/Sunghwan22</address>
-                            </a>
-                        </li>
-                    </ul>    
-                </div>
+                    <div id = "profile-box">
+                    <div id = "introduce">
+                        <div class = "name">
+                            <h2>Sunghwan22</h2>
+                            <p>Software Developer</p>
+                        </div>
+                        <p>매트릭스 만들어서 세계 정복하겠습니다</p>
+                        <div id = "interest">
+                            <p class ="interest-tag1">관심 분야 태그</p>
+                            <p class = "interest-tag2">관심 분야 태그</p>
+                            <p>내가 할 수 있는 개발 언어? 자바...</p>
+                        </div>
+                    </div>
+                    <div class = "information">
+                        <ul class = "informations">
+                            <li id = "phone-number">
+                                <h3>TEL.</h3>
+                                <address>(+82)01031447938</address>
+                            </li>
+                            <li id = "email">
+                                <h3>Email.</h3>
+                                <address>tidls3144@naver.com</address>
+                            </li>
+                        </ul>    
+                        <ul class  = "informations"> 
+                            <li id = "blog">
+                                <h3>Blog.</h3>
+                                <a href="https://justdoit7938.tistory.com/">
+                                <address>https://justdoit7938.tistory.com/</address>
+                                </a>
+                            </li>
+                            <li id = "github">
+                                <h3>Github.</h3>
+                                <a href="https://github.com/Sunghwan22">
+                                <address>https://github.com/Sunghwan22</address>
+                                </a>
+                             </li>
+                        </ul>    
+                    </div>  
             </section>
             <section id = "project">
-                <h2>Project</h2>
-                <div class = "project-content1">
-                    <img src="#">
+                <div id = background>
+                <h2>Projects</h2>
+                <div class = "project-contents">
+                <div class = "project-content">
+                    <img src="images/instargram.png">
                     <h3>
                         프로젝트에 대한 설명
                     </h3>
-                    <p>스킬에 대한 설명이 들어 가는 곳입니다</p>
-                    <button type="button">버튼을 눌러라 <img src ="images/chevron-right.png"></button>
+                    <p>스킬에 대한 설명이 들어 가는 영역입니다<br>
+                        최대 두 줄이 들어갑니다
+                    </p>
+                    <button type="button">버튼을 눌러라 <img class ="check" src ="images/chevron-right.png"></button>
                 </div>
-                <div class = "project-content2">
-                    <img src="#">
+                <div class = "project-content">
+                    <img src="images/facebook.png">
                     <h3>
                         프로젝트에 대한 설명
                     </h3>
-                    <p>스킬에 대한 설명이 들어 가는 곳입니다</p>
-                    <button type="button">버튼을 눌러라 <img src ="images/chevron-right.png"></button>
+                    <p>스킬에 대한 설명이 들어 가는 영역입니다<br>
+                        최대 두 줄이 들어갑니다
+                    </p>
+                    <button type="button">버튼을 눌러라 <img class ="check" src ="images/chevron-right.png"></button>
                 </div>
-                <div class = "project-content3">
-                    <img src="#">
+                <div class = "project-content">
+                    <img src="images/youtube.png">
                     <h3>
                         프로젝트에 대한 설명
                     </h3>
-                    <p>스킬에 대한 설명이 들어 가는 곳입니다</p>
-                    <button type="button">버튼을 눌러라 <img src ="images/chevron-right.png"></button>
+                    <p>스킬에 대한 설명이 들어 가는 영역입니다<br>
+                        최대 두 줄이 들어갑니다
+                    </p>
+                    <button type="button">버튼을 눌러라 <img class ="check" src ="images/chevron-right.png"></button>
+                </div>
+                </div>
                 </div>
             </section>
             <section id = "exprience">
                 <h2>Exprience</h2>
                 <div class = "exprience-box">
-                    <div class = "exprience-content1">
+                    <div class = "exprience-content">
                         <h3>현대모비스</h3>
                         <p>주요업무를 적는 란</p>
                         <time>2023.01.01~2023.02.02</time>
                     </div>
-                    <div class = "exprience-content2">
+                    <div class = "exprience-content">
                         <h3>회사1</h3>
                         <p>주요업무를 적는 란</p>
                         <time>2023.01.01~2023.02.02</time>
                     </div>
-                    <div class = "exprience-content3">
+                    <div class = "exprience-content">
                         <h3>메가테라</h3>
                         <p>주요업무를 적는 란</p>
                         <time>2023.01.01~2023.02.02</time>
                     </div>
-                    <div class = "exprience-content4">
-                        <h3>학력은? 고졸 풉 직업은? 개발자 거짓말치지마</h3>
+                    <div class = "exprience-content">
+                        <h3>학력</h3>
                         <p>주요업무를 적는 란</p>
                         <time>2023.01.01~2023.02.02</time>
                     </div>
                 </div>
             </section>
-            <section id = "retrospect">
+            <div id = "retrospect-background">
+                <section id = "retrospect">    
                 <div class ="retrospect-menu">
                     <h2>Retrospect</h2>
                     <ul>

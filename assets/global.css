@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul:not(.informations){
+    list-style: none;
+}
