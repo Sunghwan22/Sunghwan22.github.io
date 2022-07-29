@@ -1,0 +1,9 @@
+#sub-introduce {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-width: 1280px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

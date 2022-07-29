@@ -1,0 +1,42 @@
+#exprience {
+    display: flex;
+    flex-direction: column;
+    min-width: 1280px;
+    max-width: 1920px;
+    margin-top: 20vw;
+    margin-left: 18vw;
+    padding-right: 8vw;
+    width: 70%; 
+}
+
+.exprience-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vw;
+    border-bottom: 1px dashed #DDDDDD;
+    
+}
+
+#exprience h2{
+    font-size: 2vw;
+    padding-bottom: 2vw;
+    border-bottom: 2px solid black;
+}
+
+.exprience-content h3 {
+    font-size: 1vw;
+    padding-left: 1vw;
+    width: 10vw;
+}
+
+.exprience-content p{
+    width: 10vw;
+    color : #666666
+}
+
+.exprience-content time {
+    text-align: right;
+    width: 20vw;
+    color: #666666;
+}

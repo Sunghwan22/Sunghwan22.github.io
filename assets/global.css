@@ -10,11 +10,6 @@ a{
     text-decoration: none;
 }
 
-button {
-    border: none;
-    background: none;
-}
-
 ul:not(.informations){
     list-style: none;
 }

@@ -1,0 +1,59 @@
+#retrospect-background {
+    background-color: #323232;
+    padding-top: 4vw;
+    padding-bottom: 7vw;
+    margin-top: 10vw;
+}
+
+#retrospect {
+    display: flex;
+    flex-direction: column;
+    min-width: 1280px;
+    max-width: 1920px;
+    width: 70%; 
+    margin-left: 18vw;
+    padding-right: 7vw;
+}
+
+.retrospect-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+    margin-right: 1vw;
+}
+
+.retrospect-menu ul{
+    display: flex;
+    gap: 2vw;
+}
+
+.retrospect-menu li a{
+    color:#DADADA;
+}
+
+.retrospect-menu h2{
+    font-size: 2vw;
+    color: white;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1vw;
+}
+
+.card {
+    background-image: url(../images/instargram.png);
+    background-size: cover;
+    width: 15vw;
+    height: 15vw;
+    background-color: #D9D9D9;
+    border-radius: 1.5vw;
+    text-indent: -9999px;
+}
+
+.card:hover{
+    color: #000000
+}
