@@ -54,10 +54,10 @@ header li a {
 }
 
 header li:last-child a {
-    border-radius: 7vw;
     width: 28.5vw;
     padding: 2.8vw;
     color: #FFF;
+    border-radius: 7vw;
     border: 1px solid var(--primary-color);
     background-color: var(--primary-color);
     text-transform: uppercase;
@@ -85,8 +85,8 @@ header li:last-child:active a {
     header a h1 {
         font-size: 1.1em;
         letter-spacing: -0.05em;
-        padding: 0;
         height: 100%;
+        padding: 0;
         border-bottom: 0;
     }
 

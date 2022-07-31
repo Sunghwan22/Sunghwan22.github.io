@@ -10,10 +10,10 @@
 
 #introduce .avatar {
     position: relative;
-    margin: 11vw auto;
     width: 42vw;
     height: 42vw;
     border-radius: 50%;
+    margin: 11vw auto;
     overflow: hidden;
     z-index: 0;
 }
@@ -61,8 +61,8 @@
     font-size: 3.8vw;
     padding: 2.9vw 4.5vw;
     border-radius: 10vw;
-    color: #DF872D;
-    background-color: #FEE6A6;
+    color: #12406a;
+    background-color: #12406a;
 }
 
 #introduce .address {
@@ -104,10 +104,11 @@
         "avatar about about about about"
         "avatar address address address contact"
         ;
+        width: 100%;
         padding-top: calc(11.5em + var(--header-height));
         padding-bottom: 11.5em;
         padding-inline: calc((100% - 1280px) / 2);
-        width: 100%;
+
     }
     
     #introduce .about {
@@ -116,9 +117,9 @@
     
     #introduce .avatar {
         grid-area: avatar;
-        margin: 0 3em 0 0;
         width: 19em;
         height: 19em;
+        margin: 0 3em 0 0;
     }
     
     #introduce .avatar img {
@@ -131,8 +132,8 @@
     #introduce .about h2 {
         font-size: 1em;
         font-weight: 700;
-        margin-bottom: 0.8em;
         width: 100%;
+        margin-bottom: 0.8em;
         letter-spacing: 0.01em;
         text-align: start;
     }
@@ -154,8 +155,8 @@
         display: flex;
         justify-content: flex-start;
         gap: 1em;
-        padding: 1.3em 0 2.8em 0;
         width: 100%;
+        padding: 1.3em 0 2.8em 0;
         border-bottom: 1px solid #DDD;
     }
 
@@ -164,7 +165,7 @@
         padding: 0.7em 1.3em;
         border-radius: 1.3em;
         color: #DF872D;
-        background-color: #FEE6A6;
+        background-color: #12406a;
     }
 
     #introduce .address {
@@ -179,9 +180,9 @@
     }
     
     #introduce .address li {
-        margin-left: 1em;
-        padding-bottom: 1.5em;
         width: 25em;
+        padding-bottom: 1.5em;
+        margin-left: 1em;
     }
     
     #introduce .address dt, dd {

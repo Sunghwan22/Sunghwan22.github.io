@@ -1,6 +1,6 @@
 #retrospects {
     padding: 24vw 0 24vw 4vw;
-    background-color: #FEE6A6;
+    background-color: #12406a;
     overflow-x: scroll;
 }
 
@@ -40,31 +40,31 @@
 }
 
 #retrospects .post:nth-child(1) {
-    background-image: url(/assets/images/cat.jpeg);
+    background-image: url(/assets/images/project에\ 넣을거.webp);
 }
 
 #retrospects .post:nth-child(2) {
-    background-image: url(/assets/images/cat.jpeg);
+    background-image: url(/assets/images/고래사진.webp);
 }
 
 #retrospects .post:nth-child(3) {
-    background-image: url(/assets/images/cat.jpeg);
+    background-image: url(/assets/images/옷사진.webp);
 }
 
 #retrospects .post:nth-child(4) {
-    background-image: url(/assets/images/cat.jpeg);
+    background-image: url(/assets/images/배경.webp);
 }
 
 #retrospects .post:nth-child(5) {
-    background-image: url(/assets/images/cat.jpeg);
+    background-image: url(/assets/images/옷사진.webp);
 }
 
 #retrospects .post:nth-child(6) {
-    background-image: url(/assets/images/cat.jpeg);
+    background-image: url(/assets/images/배경.webp);
 }
 
 #retrospects .post:nth-child(7) {
-    background-image: url(/assets/images/cat.jpeg);
+    background-image: url(/assets/images/project에\ 넣을거.webp);
 }
 
 #retrospects .post:nth-child(8) {
@@ -72,15 +72,15 @@
 }
 
 #retrospects li a {
+    color: #FFF;
     font-size: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5vw;
     width: 100%;
     height: 100%;
+    padding: 5vw;
     border-radius: 3vw;
-    color: #FFF;
     text-align: center;
 }
 
@@ -126,14 +126,14 @@
     }
     
     #retrospects li:hover a {
+        background-color: rgba(0, 0, 0, 0.5);
         font-size: 1.3em;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 1.5em;
         width: 100%;
         height: 100%;
+        padding: 1.5em;
         border-radius: 1.4em;
-        background-color: rgba(0, 0, 0, 0.5);
     }
 }

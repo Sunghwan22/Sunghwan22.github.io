@@ -1,11 +1,11 @@
 aside .go-top {
     position: fixed;
     bottom: 25vw;
-    right: 4vw;
+    right: 3vw;
     display: block;
-    width: 11vw;
-    height: 11vw;
-    background: url(../images/top-orange.png) no-repeat 0 0;
+    width: 7vw;
+    height: 7vw;
+    background: url(../images/top-black.png) no-repeat 0 0;
     background-size: contain;
     text-indent: -10000px;
     overflow: hidden;
@@ -17,14 +17,14 @@ aside .go-top:hover {
 }
 
 aside .go-top:active {
-    background-image: url(../images/top-orange.png);
+    background-image: url(../images/top-black.png);
 }
 
 @media (min-width: 1024px) {
     aside .go-top {
+        display: block;
         bottom: 25%;
         right: 10%; 
-        display: block;
         width: 3.7em;
         height: 3.7em;
     }
@@ -32,9 +32,9 @@ aside .go-top:active {
 
 @media (min-width: 1280px) {
     aside .go-top {
-        bottom: 25%;
-        right: calc((100% - 1280px - 10em) / 2); 
         display: block;
+        bottom: 15%;
+        right: calc((100% - 1280px - 10em) / 2); 
         width: 3.7em;
         height: 3.7em;
     }

@@ -55,6 +55,7 @@
 @media (min-width: 1024px) {
     #exprience {
         padding: 8em calc((100% - (1280px)) / 2) 2.5em; 
+        padding-bottom: 10vw;
     }
 
     #exprience .title {
