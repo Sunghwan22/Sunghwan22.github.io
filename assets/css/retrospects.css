@@ -1,0 +1,139 @@
+#retrospects {
+    padding: 24vw 0 24vw 4vw;
+    background-color: #12406a;
+    overflow-x: scroll;
+}
+
+#retrospects .title {
+    color: var(--primary-color);
+}
+
+#retrospects .title h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 7.2vw;
+    font-weight: 700;
+    margin-bottom: 3.5vw;
+}
+
+#retrospects .title p {
+    font-size: 4vw;
+    font-weight: 400;
+    margin-bottom: 15vw;
+}
+
+#retrospects .contents {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#retrospects ul {
+    display: flex;
+    gap: 4vw;
+    width: calc((50vw + 4vw) * 8);
+}
+
+#retrospects li {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 3vw;
+    background-size: cover;
+}
+
+#retrospects .post:nth-child(1) {
+    background-image: url(/assets/images/project에\ 넣을거.webp);
+}
+
+#retrospects .post:nth-child(2) {
+    background-image: url(/assets/images/고래사진.webp);
+}
+
+#retrospects .post:nth-child(3) {
+    background-image: url(/assets/images/옷사진.webp);
+}
+
+#retrospects .post:nth-child(4) {
+    background-image: url(/assets/images/배경.webp);
+}
+
+#retrospects .post:nth-child(5) {
+    background-image: url(/assets/images/옷사진.webp);
+}
+
+#retrospects .post:nth-child(6) {
+    background-image: url(/assets/images/배경.webp);
+}
+
+#retrospects .post:nth-child(7) {
+    background-image: url(/assets/images/project에\ 넣을거.webp);
+}
+
+#retrospects .post:nth-child(8) {
+    background-image: url(/assets/images/cat.jpeg);
+}
+
+#retrospects li a {
+    color: #FFF;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 5vw;
+    border-radius: 3vw;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    #retrospects {
+        padding: 13em calc((100% - 1280px) / 2);
+    }
+
+    #retrospects .title h3 {
+        font-family: 'Lato', sans-serif;
+        font-size: 2em;
+        font-weight: 700;
+        display: inline-block;
+        margin-right: 0.5em;
+    }
+    
+    #retrospects .title p {
+        font-size: 1.1em;
+        display: inline-block;
+        margin-bottom: 2.1em;
+    }
+    
+    #retrospects .contents {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #retrospects ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.9em;
+    }
+    
+    #retrospects li {
+        width: 19em;
+        height: 19em;
+        border-radius: 1.4em;
+    }
+    
+    #retrospects li a {
+        display: none;
+    }
+    
+    #retrospects li:hover a {
+        background-color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 1.5em;
+        border-radius: 1.4em;
+    }
+}
