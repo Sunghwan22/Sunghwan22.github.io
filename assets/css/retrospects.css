@@ -40,35 +40,35 @@
 }
 
 #retrospects .post:nth-child(1) {
-    background-image: url(/assets/images/project에\ 넣을거.webp);
+    background-image: url(../images/cat.jpeg);
 }
 
 #retrospects .post:nth-child(2) {
-    background-image: url(/assets/images/고래사진.webp);
+    background-image: url(../images/cat.jpeg);
 }
 
 #retrospects .post:nth-child(3) {
-    background-image: url(/assets/images/옷사진.webp);
+    background-image: url(../images/옷사진.webp);
 }
 
 #retrospects .post:nth-child(4) {
-    background-image: url(/assets/images/배경.webp);
+    background-image: url(../images/배경.webp);
 }
 
 #retrospects .post:nth-child(5) {
-    background-image: url(/assets/images/옷사진.webp);
+    background-image: url(../images/옷사진.webp);
 }
 
 #retrospects .post:nth-child(6) {
-    background-image: url(/assets/images/배경.webp);
+    background-image: url(../images/배경.webp);
 }
 
 #retrospects .post:nth-child(7) {
-    background-image: url(/assets/images/project에\ 넣을거.webp);
+    background-image: url(../images/cat.jpeg);
 }
 
 #retrospects .post:nth-child(8) {
-    background-image: url(/assets/images/cat.jpeg);
+    background-image: url(../images/cat.jpeg);
 }
 
 #retrospects li a {
