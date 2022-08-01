@@ -38,36 +38,7 @@
     border-radius: 3vw;
     background-size: cover;
 }
-
-#retrospects .post:nth-child(1) {
-    background-image: url(../images/cat.jpeg);
-}
-
-#retrospects .post:nth-child(2) {
-    background-image: url(../images/cat.jpeg);
-}
-
-#retrospects .post:nth-child(3) {
-    background-image: url(../images/cat.jpeg);
-}
-
-#retrospects .post:nth-child(4) {
-    background-image: url(../images/cat.jpeg);
-}
-
-#retrospects .post:nth-child(5) {
-    background-image: url(../images/cat.jpeg);
-}
-
-#retrospects .post:nth-child(6) {
-    background-image: url(../images/cat.jpeg);
-}
-
-#retrospects .post:nth-child(7) {
-    background-image: url(../images/cat.jpeg);
-}
-
-#retrospects .post:nth-child(8) {
+#retrospects .post {
     background-image: url(../images/cat.jpeg);
 }
 
